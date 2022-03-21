@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Donall",
+      "gender": "Female",
+      "department": "HR",
+      "role": "Head",
+      "salary": "473",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "John",
+      "gender": "Male",
+      "department": "Finance",
+      "role": "Executive",
+      "salary": "924",
+      "status": false,
+      "id": 2
+    }
+  ]
+}

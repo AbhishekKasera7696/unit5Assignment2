@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.employees{
+  border:1px solid black;
+  width:50%;
+  margin:5%;
+  text-align: center;
+ box-sizing: border-box;
+ margin-left: 20%;
+ border-radius:30px;
+}
