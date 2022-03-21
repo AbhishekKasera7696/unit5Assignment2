@@ -17,6 +17,87 @@
       "salary": "924",
       "status": false,
       "id": 2
+    },
+    {
+      "name": "Mangesh",
+      "gender": "Male",
+      "department": "Manager",
+      "role": "Trainee",
+      "salary": "2400",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "Abhishek",
+      "gender": "Male",
+      "department": "Marketing",
+      "role": "Manager",
+      "salary": "3000",
+      "status": false,
+      "id": 4
+    },
+    {
+      "name": "Abraham",
+      "gender": "Male",
+      "department": "IT",
+      "role": "Manager",
+      "salary": "66600",
+      "status": false,
+      "id": 5
+    },
+    {
+      "name": "Genelia",
+      "gender": "Female",
+      "department": "HR",
+      "role": "Head",
+      "salary": "55600",
+      "status": false,
+      "id": 6
+    },
+    {
+      "name": "Ambreen",
+      "gender": "Female",
+      "department": "Finance",
+      "role": "Head",
+      "salary": "74122",
+      "status": false,
+      "id": 7
+    },
+    {
+      "name": "Ambreen",
+      "gender": "Male",
+      "department": "HR",
+      "role": "Manager",
+      "salary": "2800",
+      "status": false,
+      "id": 8
+    },
+    {
+      "name": "Ambreesh",
+      "gender": "Male",
+      "department": "Marketing",
+      "role": "Manager",
+      "salary": "30000",
+      "status": false,
+      "id": 9
+    },
+    {
+      "name": "June",
+      "gender": "Female",
+      "department": "Marketing",
+      "role": "Head",
+      "salary": "1500",
+      "status": false,
+      "id": 10
+    },
+    {
+      "name": "Sonal",
+      "gender": "Female",
+      "department": "IT",
+      "role": "Manager",
+      "salary": "2000",
+      "status": false,
+      "id": 11
     }
   ]
 }

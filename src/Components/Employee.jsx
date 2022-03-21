@@ -15,8 +15,9 @@ const Employee = () => {
     React.useEffect( () => {
         getEmployees();
     }, []);
+    
 
-   
+   //Asc. sort
     const sortAsc = () => {
         fetch (`http://localhost:3004/data?_sort=salary&_order=asc`)
             .then((res) => res.json())
@@ -87,7 +88,7 @@ const Employee = () => {
             .catch((err) => setIsError(true))
             .finally(() => setIsLoading(false));
         }
-        // setInputValue("")
+       
     };
 
     return (
@@ -128,15 +129,15 @@ const Employee = () => {
             <hr></hr>
             <div>
                 <button onClick={getEmployees}>Show All Departments</button>
-                <button>Show Marketing</button>
-                <button>Show HR</button>
-                <button>Show IT</button>
-                <button>Show Finance</button>
+                <button>SHOW MARKETING</button>
+                <button>SHOW HR</button>
+                <button>SHOW IT</button>
+                <button>SHOW FINANCE</button>
             </div>
             <br></br>
             <div>
-                <button onClick={sortAsc}>Sort By Salary Ascending</button>
-                <button onClick={sortDesc}>Sort By Salary Descending</button>
+                <button onClick={sortAsc}>SORT BY SALARY ASCENDING</button>
+                <button onClick={sortDesc}>SORT BY SALARY DESCENDING</button>
             </div>
 
             {
